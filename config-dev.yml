@@ -1,10 +1,12 @@
 server:
   port: 3355
 
-rabbitmq:
-  host: 192.168.10.71
-  port: 5672
-  username: guest
+spring:
+  rabbitmq: #rabbitmq相关配置，15672是web管理端口，5672是mq访问端口
+    port: 5672
+    host: 192.168.10.71
+    username: guest
+    password: guest
 
 config:
   info: trump

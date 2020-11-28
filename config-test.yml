@@ -9,5 +9,5 @@ spring:
     password: guest
 
 config:
-  info: test02
+  info: test03
   

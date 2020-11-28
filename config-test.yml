@@ -1,5 +1,5 @@
 server:
-  port: 3346
+  port: 3356
 
 rabbitmq:
   host: localhost
